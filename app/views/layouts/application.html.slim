@@ -11,7 +11,7 @@ html
     .app-title.navbar.navbar-expand-md.navbar-right.bg-light
       .navbar-brand Taskleaf
 
-      ul.navbar-nav.mil-auto
+      ul.navbar-nav.ml-auto
         - if current_user
           li.nav-item= link_to 'タスク一覧', tasks_path, class: 'nav-link'
           - if current_user.admin?
@@ -23,4 +23,4 @@ html
     .container
       - if flash.notice.present?
         .alert.alert-success= flash.notice
-    = yield
+      = yield
