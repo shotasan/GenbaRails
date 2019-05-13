@@ -22,6 +22,8 @@ class TasksController < ApplicationController
     end
 
     if @task.save
+      # deliver_nowは即時送信を行うためのメソッド
+      TaskMailer.creation_email(@task).deliver_now
       logger.debug "task: #{@task.attributes.inspect}"
       redirect_to @task, notice: "タスク『#{@task.name}」を登録しました。"
     else
