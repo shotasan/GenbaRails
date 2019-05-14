@@ -1,11 +1,10 @@
 class Task < ApplicationRecord
   has_one_attached :image
+  belongs_to :user
 
   validates :name, presence: true
   validates :name, length: { maximum: 30 }
   validate :validate_name_not_including_comma
-
-  belongs_to :user
 
   scope :recent, -> { order(created_at: :desc) }
 

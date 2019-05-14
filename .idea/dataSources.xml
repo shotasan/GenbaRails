@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails taskleaf: test" uuid="9dde8306-9f15-41ac-ad50-eb17bd6af247">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/taskleaf_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails taskleaf: development" uuid="79e8aacd-272d-46a6-a736-c5df275049b1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/taskleaf_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails taskleaf: production" uuid="78c08f06-85a0-4039-bbf6-f38a2d50f266">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/taskleaf_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
